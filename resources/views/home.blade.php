@@ -14,7 +14,7 @@
             @foreach($comics as $comic)
             <div class="card">
                 <img src="{{ $comic['thumb'] }}" :alt="comicTitle">
-                <h4>{{ $comic['title'] }}</h4>
+                <h4>{{ $comic['series'] }}</h4>
             </div>
             @endforeach
         </div>

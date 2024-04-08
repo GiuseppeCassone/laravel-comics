@@ -16,7 +16,7 @@
             </div>
             <div class="link-list">
                 <h5 class="text-white">SHOP</h5>
-                <ul class="p-0">
+                <ul class="p-0 mb-0">
                     <li>Shop DC</li>
                     <li>Shop DC Collectibles</li>                       
                 </ul>

@@ -9,6 +9,8 @@
 </head>
 <body>
 
+    @include('partials/header')
+
     <div class="container">
         <h1>ciao</h1>
     </div>

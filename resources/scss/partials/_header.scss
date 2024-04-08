@@ -1,0 +1,35 @@
+header{
+    width: 100%;
+    background-color: white;
+    color: black;
+
+    .container{
+        max-width: 1200px;
+        // justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 50px;
+
+        img{
+            padding: 20px 0;
+        }
+    
+        ul{
+            align-items: stretch;
+            gap: 25px;
+            list-style-type: none;
+            
+            li{
+                position: relative;
+                align-items: center;
+                font-size: 12px;
+                font-weight: bold;
+
+                
+            }
+
+        }
+    }
+    
+    
+}

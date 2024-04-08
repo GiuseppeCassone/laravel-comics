@@ -17,6 +17,9 @@ Route::get('/', function () {
 
     $navlinks = ["CHARACTERS", "COMICS", "MOVIES", "TV", "GAMES", "COLLECTIBLES", "VIDEOS", "FANS", "NEWS", "SHOP"];
 
+    $comics = config('db.comics');
+    // dd($comics);
 
-    return view('home', compact('navlinks'));
+
+    return view('home', compact('navlinks', 'comics'));
 })->name('home');
